@@ -138,7 +138,7 @@ class CartScreen extends StatelessWidget {
                                 ),
                               ),
                               Text(
-                                  '${Provider.of<CartModel>(context, listen: false).totalPrice()}')
+                                  '${Provider.of<CartModel>(context, listen: false).totalPrice}')
                             ],
                           ),
                         ),

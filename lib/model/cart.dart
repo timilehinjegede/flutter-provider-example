@@ -23,7 +23,7 @@ class CartModel extends ChangeNotifier {
     return _items[id].quantity;
   }
 
-  int totalPrice() {
+  int get totalPrice {
     int total = 0;
 
     for (int i = 0; i < _items.length; i++) {
